@@ -1,17 +1,14 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX (Debe aclarar la función y el objetivo del cto.)
+* Autor: Ismael Farid Marquez Quila
+* Título corto del trabajo:  Shield_Datalogger
+* Descripción: Placa tipo Shield de 2 capas compatible con placas STM32 Nucleo-64 (conectores Morpho) que consolida un sensor inercial IMU de 6 ejes (LSM6DS3 mediante bus I2C) y un zócalo lector de tarjetas MicroSD (mediante bus SPI) en un único circuito impreso compacto. Su objetivo es la adquisición y almacenamiento local de datos inerciales (datalogger) operando a 3,3 V, diseñado bajo criterios de integridad de señal (plano de tierra continuo GND en la cara inferior, capacitores de desacoplamiento locales, pistas de 0,15 mm para señales y 0,51 mm para alimentación) y encapsulados SMD 0805 aptos para soldadura manual.
 * Cursada: OCT-NOV-DIC 2026
 
 
 ## Licencia de este trabajo ##
-XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
-Y además colcar el archivo de texto de la misma en el directorio raíz.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la sección "What license should I use?": https://www.oshwa.org/faq/
+Este diseño de hardware abierto se publica bajo la licencia **CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0)**, siguiendo las recomendaciones de la Open Source Hardware Association (OSHWA).
 
 ## Estructura del TP FINAL ##
 
